@@ -1,20 +1,43 @@
 
 body {
     background-color: black;
+    color: white;
 }
 
-header {
+header, .video, .image, footer {
     text-align: center;
 }
 
-h1 {
+h1, h2, p ,a {
     font-family: Verdana;
+}
+
+h1 {
     font-weight: normal;
-    color: white;
     font-size: 50px;
 }
 
-header a {
+a {
     color: aquamarine;
     font-size: 16px;
+}
+
+img {
+    padding-top: 20px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+
+}
+
+p {
+    color: gray;
+    font-size: 21px;
+
+}
+
+nav p {
+    text-align: right;
 }
